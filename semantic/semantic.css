@@ -20942,6 +20942,7 @@ ol.ui.horizontal.list li:before,
   padding: 0.78571429em 1.14285714em !important;
   background: transparent !important;
   color: rgba(0, 0, 0, 0.87) !important;
+  /*Change Dropdown colors here*/
   text-transform: none !important;
   font-weight: normal !important;
   box-shadow: none !important;

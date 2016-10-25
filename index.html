@@ -1,189 +1,369 @@
 <html>
+
 <head>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>WSDC</title>
-    
+
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    
-  <link rel="stylesheet" type="text/css" href="semantic/semantic.min.css">
-<script src="semantic/semantic.min.js"></script>
-<link rel="stylesheet" type="text/css" href="index.css"/>
-<title>
-</title></head>
+
+    <link rel="stylesheet" type="text/css" href="semantic/semantic.css">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <script src="semantic/semantic.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="index.css" />
+    <title>
+    </title>
+</head>
+
 <body onload="startTime();">
 
 
 
 
 
-<div class="ui equal width grid stackable">
-  <div class="column"></div>
-  <div class="column">  
-      <img src="nitwlogo.png" height="45em">
-    </div><div class="column"></div>
-  </div><br><br><br>
-  
-  <div class="ui inverted violet eight item menu stackable">
-  <a class="item">HOME</a>
-  <a class="item">ADMINISTRATION</a>
-  <a class="item">ACADEMICS</a>
-  <a class="item">DEPARTMENTS</a>
-  <a class="item">R&D AND C</a>
-  <a class="item">STUDENT WELFARE</a>
-  <a class="item">FACILITIES</a>
-  <a class="item">PLACEMENTS</a></div></div>
-  </div>
-  <div class="ui grid">
-    <div class="sixteen wide column">
-      <img height="400em" width="100%" class="bigimg" id="img1"><script>
-var imgArray = new Array("landing0.jpg","IMG_6300.JPG","DSC2235.JPG");
-var imgCount = 0;
-function startTime() {
-    if(imgCount == imgArray.length) {
-        imgCount = 0;
-    }
-    document.getElementById("img1").src = imgArray[imgCount];
-    imgCount++;
-    setTimeout("startTime()", 5000);
-}
-</script></div></div>
-      <div class="ui inverted violet eight item menu twomenu stackable">
-  <a class="item">STUDENT PORTAL</a>
-  <a class="item">FACULTY PORTAL</a>
-  <a class="item">WEB EMAIL</a>
-  <a class="item">E&ICT ACADEMY</a>
-  <a class="item">NIT ANDHRA PRADESH</a>
-  </div></div>
-  </div>
-  <br><br>
-  <div class="ui equal width grid stackable">
+    <div class="ui equal width grid stackable">
+        <div class="column centered" style="margin-bottom: 0px">
+            <img src="nitwlogo.png" width="80%" height="auto" style="padding-left: 20%">
+        </div>
 
-    <div class="column">
-      <div class="ui card firstcol">
-  
-  <div class="content">
-    <div class="headnews"><center class="headtext">ANNOUNCEMENTS</center></div>
-    <div class="description">
-      18 Aug 2016 : Advertisement for the post of JRF in Department of Chemistry
+        <div class="ui inverted      ten item menu stackable borderless" style="margin-top: 0px; background-color: #1a4380">
+            <div class="item simple ui dropdown">
+                <div class="uppercase">Home</div>
+                <div class="menu">
+                    <div class="item">About Us</div>
+                    <div class="item">FAQ</div>
+                    <div class="item">Gallery</div>
+                    <div class="item">History</div>
+                    <div class="item">Mission</div>
+                    <div class="item">Vision</div>
+                    <div class="item">Visiting NITW</div>
+                </div>
+            </div>
+            <div class="item simple ui dropdown">
+                <div class="uppercase">Administration</div>
+                <div class="menu">
+                    <!--
+                    <div class="item">New</div>
+                    <div class="item">
+                    </div>
+-->
+                    <div class="item">Administrative Officers</div>
+                    <div class="item">Board of Governers</div>
+                    <div class="item">Building And Works Committee</div>
+                    <div class="item">Chairman</div>
+                    <div class="item">Chief Vigilance Officer</div>
+                    <div class="item">Director</div>
+                    <div class="item">Emergency Contact Numbers</div>
+                    <div class="item">Finance Committee</div>
+                    <div class="item">Institute Annual Report</div>
+                    <div class="item">Memorandum of Association</div>
+                    <div class="item">Memorandum of Understanding</div>
+                    <div class="item">NIT Council</div>
+                    <div class="item">Organization Chart</div>
+                    <div class="item">Right To Information</div>
+                    <div class="item">Senate</div>
+                    <div class="item">Statutory Policies</div>
+
+                </div>
+            </div>
+            <div class="item simple ui dropdown">
+                <div class="uppercase">Academics</div>
+                <div class="menu">
+                    <div class="item">Academic Calendar</div>
+                    <div class="item">Academic Section</div>
+                    <div class="item">Admissions</div>
+                    <div class="item">Centres</div>
+                    <div class="item">Computer Centre</div>
+                    <div class="item">Medals, Awards and Scholarships</div>
+                    <div class="item">Rules and Regulations</div>
+                    <div class="item">Schemes and Syllabus</div>
+                    <div class="item">TEQIP</div>
+                    <div class="item">Transcripts</div>
+                </div>
+            </div>
+            <div class="item simple ui dropdown">
+                <div class="uppercase">Departments</div>
+                <div class="menu">
+                    <div class="item">Biotechnology</div>
+                    <div class="item">Chemical Engineering</div>
+                    <div class="item">Chemistry</div>
+                    <div class="item">Civil Engineering</div>
+                    <div class="item">Computer Science And Engineering</div>
+                    <div class="item">Electrical Engineering</div>
+                    <div class="item">Electronics & communication Engineering</div>
+                    <div class="item">Humanities & Social Science</div>
+                    <div class="item">Mathematics</div>
+                    <div class="item">Mechanical Engineering</div>
+                    <div class="item">Metallurgical & Material Engineering</div>
+                    <div class="item">Physical Education</div>
+                    <div class="item">Physics</div>
+                    <div class="item">School of Management</div>
+                </div>
+            </div>
+            <div class="item simple ui dropdown">
+                <div class="uppercase">R&amp;D and C</div>
+                <div class="menu">
+                    <div class="item">Areas Of Research</div>
+                    <div class="item">Department wise Research Funds</div>
+                    <div class="item">Departments in Research</div>
+                    <div class="item">Research (Ph.D.) Scholars</div>
+                    <div class="item">Research Advisory Committee members</div>
+                    <div class="item">Research and Consultancy Officials</div>
+                    <div class="item">Research Centers</div>
+                    <div class="item">Research Presentations</div>
+                    <div class="item">Research Projects</div>
+                    <div class="item">Research Publications</div>
+                    <div class="item">Total Research Funds</div>
+                </div>
+            </div>
+
+            <div class="item simple ui dropdown">
+                <div class="uppercase">Student Welfare</div>
+                <div class="menu">
+                    <div class="item">Association</div>
+                    <div class="item">Club</div>
+                    <div class="item">Foreign Students Association</div>
+                    <div class="item">IEEE</div>
+                    <div class="item">NCC & NSS</div>
+                    <div class="item">SC/ST Cell</div>
+                    <div class="item">Special Cells</div>
+                    <div class="item">Sports</div>
+                    <div class="item">Springspree</div>
+                    <div class="item">Student Council</div>
+                    <div class="item">Students Corner</div>
+                    <div class="item">Technozion</div>
+                </div>
+            </div>
+            <div class="item simple ui dropdown">
+                <div class="uppercase">Facilities</div>
+                <div class="menu">
+                    <div class="item">Bank &amp; ATM</div>
+                    <div class="item">Conference Halls</div>
+                    <div class="item">Hostels</div>
+                    <div class="item">Innovation Center</div>
+                    <div class="item">Library</div>
+                    <div class="item">Medical</div>
+                    <div class="item">Motor Transport Section</div>
+                    <div class="item">NIT Canteen</div>
+                    <div class="item">Post Office</div>
+                    <div class="item">Shopping Complex</div>
+                    <div class="item">Sport Facilities</div>
+                </div>
+            </div>
+            <div class="item simple ui dropdown">
+                <div class="uppercase">Placements</div>
+                <div class="menu">
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
-  <div class="extra content">
+    <div class="ui grid">
+        <div class="sixteen wide column">
+            <img height="auto" width="100%" class="bigimg" id="img1" style="max-height: 400px">
 
-    <a>See More<i class="angle down icon"></i></a>
-    <div class="indent"><a href="#">NEXT<i class="angle double down icon"></i></a> <a href="#"> PREV<i class="angle double up icon"></i></a></div>
-  </div>
-</div></div>
-<div class="column">
-  <div class="ui card">
-  
-  <div class="content">
-    <div class="headnews"><center class="headtext">NEWS/NOTICES/PRESS RELEASE</center></div>
-    <div class="description">
-      24 Aug 2016 : TI University Program India DrishTI Winners List
+        </div>
     </div>
-  </div>
-  <div class="extra content">
-    <a>See More<i class="angle down icon"></i></a>
-    <div class="indent"><a href="#">NEXT<i class="angle double down icon"></i></a> <a href="#"> PREV<i class="angle double up icon"></i></a></div>
-  </div>
-</div></div>
-<div class="column">
-      <div class="ui card">
-  
-  <div class="content">
-    <div class="headnews"><center class="headtext">TENDERS</center></div>
-    <div class="description">
-      07 Oct 2016 : Clarifications on issues raised at the Pre-Bid meeting on Security Services
+    <div class="ui inverted six item menu twomenu stackable borderless" style="background-color: #1a4380">
+        <a class="item">Student Portal</a>
+        <a class="item">Faculty Portal</a>
+        <a class="item">Web Email</a>
+        <a class="item">E&amp;ICT   Academy</a>
+        <a class="item">NIT Andhra Pradesh</a>
     </div>
-  </div>
-  <div class="extra content">
-    <a>See More<i class="angle down icon"></i></a>
-    <div class="indent"><a href="#">NEXT<i class="angle double down icon"></i></a> <a href="#"> PREV<i class="angle double up icon"></i></a></div>
-  </div>
-</div></div>
-<div class="column">
-      <div class="ui card lastcol">
-  
-  <div class="content">
-   <div class="headnews"><center class="headtext">WORKSHOPS/CONFERENCES</center></div>
-    <div class="description">
-      11 Sep 2016 : A 10-Day Gian Course On Hydrodynamic Stability and Dynamo Theory (9-20, December 2016), Organised by Department of Mathematics
+    <br>
+    <br>
+    <div class="ui equal width grid stackable container">
+
+        <div class="column centered">
+            <div class="ui card">
+
+                <div class="content">
+                    <div class="headnews yolocolour">
+                        <center class="headtext">ANNOUNCEMENTS</center>
+                    </div>
+                    <div class="description">
+                        18 Aug 2016 : Advertisement for the post of JRF in Department of Chemistry
+                    </div>
+                </div>
+                <div class="extra content">
+
+                    <a>See More<i class="angle down icon"></i></a>
+                    <div class="indent"><a href="#">NEXT<i class="angle double down icon"></i></a> <a href="#"> PREV<i class="angle double up icon"></i></a></div>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="ui card">
+
+                <div class="content">
+                    <div class="headnews yolocolour">
+                        <center class="headtext">NEWS/NOTICES/PRESS RELEASE</center>
+                    </div>
+                    <div class="description">
+                        24 Aug 2016 : TI University Program India DrishTI Winners List
+                    </div>
+                </div>
+                <div class="extra content">
+                    <a>See More<i class="angle down icon"></i></a>
+                    <div class="indent"><a href="#">NEXT<i class="angle double down icon"></i></a> <a href="#"> PREV<i class="angle double up icon"></i></a></div>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="ui card">
+
+                <div class="content">
+                    <div class="headnews yolocolour">
+                        <center class="headtext">TENDERS</center>
+                    </div>
+                    <div class="description">
+                        07 Oct 2016 : Clarifications on issues raised at the Pre-Bid meeting on Security Services
+                    </div>
+                </div>
+                <div class="extra content">
+                    <a>See More<i class="angle down icon"></i></a>
+                    <div class="indent"><a href="#">NEXT<i class="angle double down icon"></i></a> <a href="#"> PREV<i class="angle double up icon"></i></a></div>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="ui card lastcol">
+
+                <div class="content">
+                    <div class="headnews yolocolour">
+                        <center class="headtext">WORKSHOPS/CONFERENCES</center>
+                    </div>
+                    <div class="description">
+                        11 Sep 2016 : A 10-Day Gian Course On Hydrodynamic Stability and Dynamo Theory (9-20, December 2016), Organised by Department of Mathematics
+                    </div>
+                </div>
+                <div class="extra content">
+                    <a>See More<i class="angle down icon"></i></a>
+                    <div class="indent"><a href="#">NEXT<i class="angle double down icon"></i></a> <a href="#"> PREV<i class="angle double up icon"></i></a></div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
     </div>
-  </div>
-  <div class="extra content">
-    <a>See More<i class="angle down icon"></i></a>
-    <div class="indent"><a href="#">NEXT<i class="angle double down icon"></i></a> <a href="#"> PREV<i class="angle double up icon"></i></a></div>
-  </div>
-</div></div>
-<br><br><br><br><br><br><br><br><br><br><br>
-<div class="morelinks">
-<div class="ui vertically divided grid stackble">
-<div class="six column row">
-    <div class="column"></div>
+
+    <div class="yolocolour morelinks">
+        <div class="ui four column grid stackable container">
+
+            <!--                    <div class="column"></div>-->
 
 
 
-      <div class="column"><div class="morelinkshead">Academics</div>
-      <br><br>
-      <div id="horiline"></div>
-      <br><br>
-      <p><a href="#">Admissions</a></color></p>
-      <p><a href="#">Faculty Login</a></p>
-      <p><a href="#">Academic Services</a></p>
-      <p><a href="#">TEQIP-II</a></p>
-      </div>
+            <div class="column padLeft">
+                <div class="morelinkshead">Academics</div>
+                <br>
+                <br>
+                <div id="horiline"></div>
+                <br>
+                <br>
+                <p><a href="#">Admissions</a>
+                </p>
+                <p><a href="#">Faculty Login</a></p>
+                <p><a href="#">Academic Services</a></p>
+                <p><a href="#">TEQIP-II</a></p>
+            </div>
 
 
 
 
-    
-      <div class="column"><div class="morelinkshead">Programs</div><br><br>
-      <div id="horiline"></div>
-      <br><br>
-      <p><a href="#">Heritage</a></color></p>
-      <p><a href="#">Euphrates
+
+            <div class="column padLeft">
+                <div class="morelinkshead">Programs</div>
+                <br>
+                <br>
+                <div id="horiline"></div>
+                <br>
+                <br>
+                <p><a href="#">Heritage</a>
+                </p>
+                <p><a href="#">Euphrates
 </a></p>
-      <p><a href="#">Placements</a></p>
-      <p><a href="#">NMEICT
+                <p><a href="#">Placements</a></p>
+                <p><a href="#">NMEICT
 </a></p>
+            </div>
+
+
+
+            <div class="column padLeft">
+                <div class="morelinkshead">Student Life</div>
+                <br>
+                <br>
+                <div id="horiline"></div>
+                <br>
+                <br>
+                <p><a href="#">Events</a>
+                </p>
+                <p><a href="#">Clubs and Associations
+      </a></p>
+                <p><a href="#">Student Welfare</a></p>
+                <p><a href="#">Facilities & Services
+      </a></p>
+                <p><a href="#">Office of the Dean (Students)
+      </a></p>
+            </div>
+
+            <div class="column padLeft">
+                <div class="morelinkshead">Quick links</div>
+                <br>
+                <br>
+                <div id="horiline"></div>
+                <br>
+                <br>
+                <p><a href="#">Routine Orders</a>
+                </p>
+                <p><a href="#">Contact Us
+      </a></p>
+                <p><a href="#">RTI Act</a></p>
+                <p><a href="#">Sitemap
+      </a></p>
+
+            </div>
+
+            <!--                    <div class="column"></div>-->
+
+        </div>
     </div>
-    
-
-    
-      <div class="column"><div class="morelinkshead">Student Life</div><br><br>
-      <div id="horiline"></div>
-      <br><br>
-      <p><a href="#">Events</a></color></p>
-      <p><a href="#">Clubs and Associations
-      </a></p>
-      <p><a href="#">Student Welfare</a></p>
-      <p><a href="#">Facilities & Services
-      </a></p>
-      <p><a href="#">Office of the Dean (Students)
-      </a></p>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="foot yolocolour">
+        <center class="foottext">National Institute of Technology, Warangal - 506004, TS, INDIA | NITWGL Phone: +91-870-2459191 | FAX : +91-870-2459547Copyright © 2016. WSDC</center>
     </div>
-    
-      <div class="column"><div class="morelinkshead">Quick links</div><br><br>
-      <div id="horiline"></div>
-      <br><br>
-      <p><a href="#">Routine Orders</a></color></p>
-      <p><a href="#">Contact Us
-      </a></p>
-      <p><a href="#">RTI Act</a></p>
-      <p><a href="#">Sitemap
-      </a></p>
-      
-    </div>
-    
-    <div class="column"></div>
-  </div></div>
-</div></div><br><br><br><br>
-<div class="foot"><center class="foottext">National Institute of Technology, Warangal - 506004, TS, INDIA | NITWGL Phone: +91-870-2459191 | FAX : +91-870-2459547Copyright © 2016. WSDCPrivacy Policy</center></div>
 
 
 
+    <script>
+        var imgArray = new Array("landing0.jpg", "IMG_6300.JPG", "DSC2235.JPG");
+        var imgCount = 0;
 
+        function startTime() {
+            if (imgCount == imgArray.length) {
+                imgCount = 0;
+            }
+            document.getElementById("img1").src = imgArray[imgCount];
+            imgCount++;
+            setTimeout("startTime()", 5000);
+        }
 
+        $('.ui.dropdown')
+            .dropdown();
+    </script>
 
 
 
@@ -192,5 +372,5 @@ function startTime() {
 
 
 </body>
+
 </html>
- 
